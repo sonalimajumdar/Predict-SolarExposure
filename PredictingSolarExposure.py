@@ -69,5 +69,5 @@ print (coefficients)
 max_temperature_forecast = [16.7, 18, 18, 15, 16, 17, 18, 18]
 rainfall_amount_forecast = [0, 0, 0, 0, 0, 0.1, 0.1, 0.1]
 estimated_y = predictYGivenCoefficients(coefficients, ([12.3], max_temperature_forecast, rainfall_amount_forecast))
-plotGraph(max_temperature_forecast, estimated_y)
+plotGraph([3,4,5,6,7,8,9,10], estimated_y)
 
